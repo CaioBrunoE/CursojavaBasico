@@ -1,0 +1,27 @@
+package br.com.caiosisprog.view;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class TelaInicial extends JFrame {
+   
+	
+	private JLabel label1;
+	
+	public TelaInicial() {
+		super("Tela Inicial");
+		
+		this.configuraTela();
+	}
+	
+	private void configuraTela() {
+		this.setLayout(new FlowLayout());
+		this.setDropTarget(getDropTarget(JFrame.EXIT_ON_CLOSE));
+		this.setSize(200, 100);
+		
+	}
+	
+	labe
+}
